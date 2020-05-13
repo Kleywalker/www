@@ -29,6 +29,7 @@ html {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 22pt;
+
   color: var(--main-fg-color);
 }
 .box {
@@ -37,4 +38,8 @@ html {
   background: var(--main-bg-color);
   box-shadow: 20px 20px 60px var(--shadow-dark),
     -20px -20px 60px var(--shadow-light);
+}
+a {
+  text-decoration: none;
+  margin: auto;
 }
