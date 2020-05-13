@@ -1,3 +1,40 @@
-h1 {
-  color: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+:root {
+  --main-fg-color: #969696;
+  --main-bg-color: #eeeeee;
+  --shadow-light: #ffffff;
+  --shadow-dark: #cacaca;
+}
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --main-fg-color: #8c96a0;
+    --main-bg-color: #1e1e28;
+    --shadow-light: #292936;
+    --shadow-dark: #14141a;
+  }
+}
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+  display: grid;
+  background-color: var(--main-bg-color);
+}
+.box {
+  margin: auto;
+}
+.box {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 22pt;
+  color: var(--main-fg-color);
+}
+.box {
+  border-radius: 35pt;
+  padding: 50pt;
+  background: var(--main-bg-color);
+  box-shadow: 20px 20px 60px var(--shadow-dark),
+    -20px -20px 60px var(--shadow-light);
 }
